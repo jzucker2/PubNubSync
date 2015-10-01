@@ -1,0 +1,11 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '8.0'
+use_frameworks!
+inhibit_all_warnings!
+
+xcodeproj 'PubNubSyncPublisher'
+
+pod "PubNub", "~> 4.0"
+pod "CocoaLumberjack", "2.0.0"
+pod 'SmartDeviceLink-iOS',  '4.0.0-RC.1'
